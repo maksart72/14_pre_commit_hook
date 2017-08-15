@@ -1,6 +1,8 @@
 # Quadratic Equations Solver
 
-[TODO. There will be project description]
+Put file named "pre-commit" into ./git/hooks/
+Commit will accepted only if tests.py 
+script will executed without errors.
 
 # Project Goals
 
