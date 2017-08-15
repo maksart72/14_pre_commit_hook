@@ -1,0 +1,10 @@
+#!/bin/bash
+
+python3 tests.py
+exit_code=$(echo $?)
+if [ $exit_code = 0 ]; then
+	echo "Commit allowed!"
+else
+	echo "Commit restricted!"
+  exit 1
+fi
